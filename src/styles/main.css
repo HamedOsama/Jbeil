@@ -1,0 +1,48 @@
+.display-icons {
+  animation: fadeIcons 5s ease-in-out ;
+}
+
+@keyframes fadeIcons {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.logo {
+  animation: logoAnimation 4s ease-in-out;
+}
+
+@keyframes logoAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(300%) translateX(-50%);
+  }
+
+  40% {
+    opacity: 1;
+    transform: translateY(50%) translateX(-50%);
+    width: 1200px;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(50%) translateX(-50%);
+    width: 1200px;
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateY(50%) translateX(-50%);
+    width: 1200px;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) translateX(-50%);
+  }
+}
